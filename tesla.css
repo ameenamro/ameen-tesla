@@ -1,0 +1,311 @@
+*
+{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'josefin sans',sans-serif
+}
+.back-video
+{
+position: absolute;
+width: 100%;
+background-size: cover;
+
+
+
+
+}
+
+
+body{
+
+height:5000px ;
+background-color: black;
+
+
+
+}
+
+
+
+
+
+
+
+nav .center-navbar {
+    display:flex;
+    overflow: hidden;
+    width: 40%;
+    align-items:center;
+    border-radius: 2%;
+    border:1cm beige ;
+    position: absolute;
+    margin: 1%;
+    left:  26%;
+    justify-content :center;    
+
+  }
+
+
+  nav .navbar2 {
+    display:flex;
+    overflow: hidden;
+    width: 10%;
+    border-radius: 2%;
+    border:1cm beige ;
+    position: absolute;
+    margin: 1.4%;
+    left: 88%;
+    align-items:center;
+
+      
+
+  }
+
+  .transparent-icon {
+      color: transparent;
+  }
+
+
+  .navbar2 li {
+
+    display:flex;
+    list-style: none;
+    color :white;
+    padding-right: 10% ;
+    
+      }
+
+
+      nav .navbar2 li a { 
+       list-style: none;
+        color: #f7fbff;
+       text-decoration: none;
+       padding: 15% ;
+       transition: 0.3s;    
+         }
+
+
+
+         nav .navbar2 li a i
+          { 
+
+          font-size :x-large;    
+            }
+
+
+
+
+
+
+
+
+
+
+         
+
+
+
+  nav li {
+
+display:flex;
+list-style: none;
+color :white;
+padding-right: .5% ;
+
+  }
+
+
+  nav .center-navbar li a {
+    padding: 10% ; 
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   font-size: medium;
+   font-style :normal;
+   color: #f7fbff;
+   text-decoration: none;
+  transition: 0.3s;
+   
+     }
+
+
+
+     .active:hover
+     {
+      border-radius: 20px;
+     background-color: rgb(226, 224, 221) ;
+     }
+
+
+
+
+main
+{
+position: absolute; 
+margin-top :7%;
+margin-left: 40%;
+width :35%;
+
+justify-content : center; 
+align-items: center;
+
+}
+
+.text
+{
+
+color: #f7fbff;
+
+  
+}
+.text h1
+{
+
+font-size: xx-large;
+
+}
+.text h5
+{
+  
+position: absolute;
+right: 40%;
+height:85%;
+width: 70%
+}
+
+.button
+{
+
+  margin-top: 75%;
+right: 40%;
+width: 115%;
+position:relative;
+display: flex;
+
+
+}
+
+
+.button-button1
+{
+
+
+width: 90%;
+border-radius: 10px;
+padding: 2%;
+background-color:  rgb(226, 224, 221);  
+text-align: center;
+text-decoration: none;  
+font-size: 16px;
+margin: 2%;
+font-weight  :600;
+cursor: pointer;
+opacity: .8;
+font-style :oblique;
+border-color: rgb(226, 224, 221);;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-button2
+{
+
+  font-weight  :600;
+
+width: 90%;
+border-radius: 10px;
+padding: 2%;
+font-style: italic;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(49, 48, 47);
+text-align: center;
+color: aliceblue;
+text-decoration: rgb(49, 48, 47);  
+font-size: 16px;
+border-color:none;
+margin: 2%;
+cursor: pointer;
+opacity: .7;
+
+}
+
+
+
+
+.footer
+{
+
+  position: absolute; 
+  margin-top :46%;
+  margin-left: 29%;
+  width :35%; 
+  
+  justify-content : center; 
+  align-items: center;
+
+}
+.footer a
+{
+position: absolute;
+margin-left: 31%;
+color: #f7fbff;
+font-style:normal;
+font-family :'Times New Roman', Times, serif;
+font-size :85%;
+color :aliceblue;
+
+}
+
+p
+{
+  font-style:normal;
+  font-family :'Times New Roman', Times, serif;
+  font-size :85%;
+  color :aliceblue;
+
+}
+
+.secound-page{
+display :inline-block; 
+padding-top: 64%;
+margin-top: 50%;
+padding-left: 100%;
+position: sticky;
+background-size :contain;
+background-repeat: no-repeat; 
+background-position :center;
+background-image:url('Model-S-Interior-Hero-Desktop-LHD.avif');
+height: 70%;
+
+  
+}
+.page2-text
+{
+position:absolute;
+left:50% ;
+background-color: aqua;
+
+}
+
+.thread-page
+{
+
+
+
+
+
+}
+
+
+
+
+.logo{
+    width: 9%;
+    margin-top: 2%;
+    color:white;
+    position: absolute;
+    right: 90%;
+    
+    
+    }
